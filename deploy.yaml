@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: init-quarkus
-          image: java-quarkus-image:latest
+          image: registry.redhat.io/quarkus/mandrel-23-rhel8
           ports:
             - name: http
               containerPort: 8081
